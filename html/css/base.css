@@ -53,10 +53,11 @@ li {
   list-style: none; 
 }
 
+a:hover,
 a:link,
 a:visited,
 a:focus {
-  text-decoration: none; 
+  text-decoration: none !important; 
 }
 
 *:focus {

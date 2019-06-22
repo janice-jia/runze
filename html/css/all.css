@@ -51,6 +51,11 @@
   /* padding: 0 32px; */
   margin-top: 26px; }
 
+.header-right a,
+.header-right a:hover,
+.header-right .li-active a {
+  color: #fff; }
+
 .header-right li:hover {
   background: #c6382b;
   border-radius: 20px;
