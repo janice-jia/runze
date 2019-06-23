@@ -1,0 +1,26 @@
+.about-timeline {
+  height: 50px;
+  width: 100%; }
+  .about-timeline .timeline-item-left {
+    float: left;
+    width: 50%;
+    background: pink;
+    clear: both !important; }
+  .about-timeline .timeline-item-right {
+    width: 50%;
+    float: right;
+    background: blue; }
+  .about-timeline .timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100% !important;
+    margin-left: 1px;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #888888; }
+  .about-timeline .timeline-item::after {
+    clear: both; }
