@@ -89,8 +89,15 @@
     .index-banner .jumbotron p {
       font-size: 36px;
       font-weight: normal; }
-  .index-banner .about-banner .jumbotron {
+  .index-banner .about-banner .jumbotron, .index-banner .about-footer .jumbotron {
     color: #ffffff; }
+  .index-banner .about-footer .jumbotron {
+    top: 8%; }
+    .index-banner .about-footer .jumbotron h1 {
+      font-size: 44px;
+      margin-bottom: 40px; }
+    .index-banner .about-footer .jumbotron p {
+      font-size: 30px; }
 
 .index-corp-desc {
   width: 1100px;

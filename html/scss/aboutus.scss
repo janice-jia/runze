@@ -4,6 +4,8 @@
 }
 .about-tit{
     text-align: center;
+    padding: 70px 0;
+    color: #666666;
     h1{
         font-size: 44px;
     }
@@ -14,6 +16,7 @@
 .about-timeline{
     width: 100%;
     position: relative;
+    margin-bottom: 30px;
     .timeline-item-left{
         float: left;
         width: 50%;
@@ -24,11 +27,25 @@
         width: 50%;
         float: right;
         padding-left: 80px;
+        h1{
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -93px;
+                bottom: 0;
+                width: 30px;
+                height: 30px;
+                background: url(../imgs/ellipse.jpg) no-repeat;
+                z-index: 10;
+            }
+        }
     }
     .timeline-item{
         h1{
             color: #66d4cb;
             font-size: 38px;
+            position: relative;
         }
         p{
             color: #666666;
