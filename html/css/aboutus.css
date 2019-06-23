@@ -1,6 +1,13 @@
 .clear-both {
   clear: both; }
 
+.about-tit {
+  text-align: center; }
+  .about-tit h1 {
+    font-size: 44px; }
+  .about-tit p {
+    font-size: 26px; }
+
 .about-timeline {
   width: 100%;
   position: relative; }
