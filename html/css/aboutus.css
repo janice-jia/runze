@@ -2,16 +2,23 @@
   clear: both; }
 
 .about-timeline {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   .about-timeline .timeline-item-left {
     float: left;
     width: 50%;
-    background: pink;
-    clear: both !important; }
+    text-align: right;
+    padding-right: 80px; }
   .about-timeline .timeline-item-right {
     width: 50%;
     float: right;
-    background: blue; }
+    padding-left: 80px; }
+  .about-timeline .timeline-item h1 {
+    color: #66d4cb;
+    font-size: 38px; }
+  .about-timeline .timeline-item p {
+    color: #666666;
+    font-size: 28px; }
   .about-timeline .timeline-item::before {
     content: "";
     position: absolute;
@@ -19,7 +26,6 @@
     left: 0;
     bottom: 0;
     width: 50%;
-    height: 100% !important;
     margin-left: 1px;
     border-right-width: 2px;
     border-right-style: solid;

@@ -72,8 +72,9 @@
 }
 .index-banner{
     position: relative;
+    text-align: center;
     img{
-        width:100%;
+        max-width:100%;
     }
     .index-banner-des{
         position: absolute;
@@ -86,6 +87,7 @@
         left:50%;
         margin: 0 0 0 -275px;
         color: #333333;
+        text-align: left;
         h1{
             font-size: 70px;
         }
@@ -93,6 +95,13 @@
             font-size: 36px;
             font-weight: normal;
         }
+    }
+
+    // 关于我们banner
+    .about-banner{
+        .jumbotron{
+            color: #ffffff;
+        } 
     }
 }
 
