@@ -1,6 +1,8 @@
 @charset "utf-8";
+.clear-both{
+    clear: both;
+}
 .about-timeline{
-    height: 50px;
     width: 100%;
     .timeline-item-left{
         float: left;

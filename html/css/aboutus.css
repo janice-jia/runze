@@ -1,5 +1,7 @@
+.clear-both {
+  clear: both; }
+
 .about-timeline {
-  height: 50px;
   width: 100%; }
   .about-timeline .timeline-item-left {
     float: left;
