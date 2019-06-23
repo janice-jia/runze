@@ -1,5 +1,6 @@
 .container-main {
   width: 100%;
+  overflow: hidden;
   background: #fff; }
 
 .container {
@@ -17,6 +18,7 @@
 
 .header-content {
   width: 1100px;
+  max-width: 100%;
   height: 100%;
   margin: 0 auto; }
 
@@ -30,7 +32,8 @@
 
 .header-right {
   overflow: hidden;
-  float: right; }
+  float: right;
+  width: 505px; }
 
 .header-right li {
   float: left;
@@ -39,8 +42,7 @@
   margin: 25px 5px 0 5px;
   cursor: pointer;
   height: 30px;
-  line-height: 30px;
-  padding: 0 30px; }
+  line-height: 30px; }
 
 .header-right li:last-child {
   margin-right: 0; }
@@ -50,6 +52,10 @@
   border-radius: 20px;
   /* padding: 0 32px; */
   margin-top: 26px; }
+
+.header-right a {
+  padding: 0 30px;
+  display: inline-block; }
 
 .header-right a,
 .header-right a:hover,
@@ -75,17 +81,21 @@
     max-width: 100%; }
   .index-banner .index-banner-des {
     position: absolute;
+    max-width: 100%;
     height: 100%; }
   .index-banner .jumbotron {
     width: 1100px;
+    overflow: hidden;
+    max-width: 100%;
     position: relative;
+    padding: 0;
     top: 25%;
-    left: 50%;
-    margin: 0 0 0 -275px;
+    left: 0;
     color: #333333;
     text-align: left; }
     .index-banner .jumbotron h1 {
-      font-size: 70px; }
+      font-size: 70px;
+      margin-bottom: 20px; }
     .index-banner .jumbotron p {
       font-size: 36px;
       font-weight: normal; }
@@ -100,6 +110,7 @@
       font-size: 30px; }
 
 .index-corp-desc {
+  max-width: 100%;
   width: 1100px;
   margin: 0 auto;
   color: #333333;
@@ -120,3 +131,6 @@
     margin: 35px 10px 0 0; }
   .footer .container {
     height: 94px !important; }
+
+.serve-detail-content img {
+  max-width: 100%; }

@@ -1,6 +1,7 @@
 @charset "utf-8";
 .container-main{
     width: 100%;
+    overflow: hidden;
     background: #fff;
 }
 .container{
@@ -18,6 +19,7 @@
 }
 .header-content{
     width: 1100px;
+    max-width: 100%;
     height: 100%;
     margin: 0 auto;
 }
@@ -32,6 +34,7 @@
 .header-right{
     overflow: hidden;
     float: right;
+    width: 505px;
 }
 .header-right li{
     float: left;
@@ -41,7 +44,7 @@
     cursor: pointer;
     height: 30px;
     line-height: 30px;
-    padding: 0 30px;
+    
 }
 .header-right li:last-child{
     margin-right: 0;
@@ -51,6 +54,10 @@
     border-radius: 20px;
     /* padding: 0 32px; */
     margin-top: 26px;
+}
+.header-right a{
+    padding: 0 30px;
+    display: inline-block;
 }
 .header-right a,
 .header-right a:hover,
@@ -78,18 +85,22 @@
     }
     .index-banner-des{
         position: absolute;
+        max-width: 100%;
         height: 100%;
     }
     .jumbotron{
         width: 1100px;
+        overflow: hidden;
+        max-width: 100%;
         position:relative;
+        padding: 0;
         top:25%;
-        left:50%;
-        margin: 0 0 0 -275px;
+        left:0;
         color: #333333;
         text-align: left;
         h1{
             font-size: 70px;
+            margin-bottom: 20px;
         }
         p{
             font-size: 36px;
@@ -119,6 +130,7 @@
 }
 
 .index-corp-desc{
+    max-width: 100%;
     width: 1100px;
     margin: 0 auto;
     color: #333333;
@@ -146,4 +158,11 @@
         height: 94px!important;
     }
     
+}
+
+// 核心服务
+.serve-detail-content{
+    img{
+        max-width: 100%;
+    }
 }
