@@ -3,22 +3,43 @@
 
 .about-tit {
   text-align: center;
-  padding: 70px 0;
+  padding: 70px 0 0 0;
   color: #666666; }
   .about-tit h1 {
-    font-size: 44px; }
+    font-size: 40px; }
   .about-tit p {
-    font-size: 26px; }
+    font-size: 20px; }
 
 .about-timeline {
   width: 100%;
   position: relative;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  padding-top: 70px; }
+  .about-timeline::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../imgs/about_bg.png) no-repeat center top;
+    background-size: auto 84%; }
   .about-timeline .timeline-item-left {
     float: left;
     width: 50%;
     text-align: right;
     padding-right: 80px; }
+    .about-timeline .timeline-item-left h1::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -89px;
+      bottom: 0;
+      width: 18px;
+      height: 18px;
+      background: url(../imgs/ellipse.jpg) no-repeat;
+      background-size: 100%;
+      z-index: 10; }
   .about-timeline .timeline-item-right {
     width: 50%;
     float: right;
@@ -27,29 +48,32 @@
       content: "";
       position: absolute;
       top: 0;
-      left: -93px;
+      left: -89px;
       bottom: 0;
-      width: 30px;
-      height: 30px;
+      width: 18px;
+      height: 18px;
       background: url(../imgs/ellipse.jpg) no-repeat;
+      background-size: 100%;
       z-index: 10; }
-  .about-timeline .timeline-item h1 {
-    color: #66d4cb;
-    font-size: 38px;
-    position: relative; }
-  .about-timeline .timeline-item p {
-    color: #666666;
-    font-size: 28px; }
-  .about-timeline .timeline-item::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 50%;
-    margin-left: 1px;
-    border-right-width: 2px;
-    border-right-style: solid;
-    border-right-color: #888888; }
-  .about-timeline .timeline-item::after {
-    clear: both; }
+  .about-timeline .timeline-item {
+    margin-bottom: 40px; }
+    .about-timeline .timeline-item h1 {
+      color: #66d4cb;
+      font-size: 26px;
+      position: relative; }
+    .about-timeline .timeline-item p {
+      color: #666666;
+      font-size: 16px; }
+    .about-timeline .timeline-item::before {
+      content: "";
+      position: absolute;
+      top: 70px;
+      left: 0;
+      bottom: 0;
+      width: 50%;
+      margin-left: 1px;
+      border-right-width: 2px;
+      border-right-style: solid;
+      border-right-color: #888888; }
+    .about-timeline .timeline-item::after {
+      clear: both; }
