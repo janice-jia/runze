@@ -11,3 +11,254 @@
     text-align: center;
     margin-bottom: 50px;
 }
+
+.index-corp-desc{
+    margin-top: 50px;
+    .serve-header{
+        h2{
+            font-size: 36px;
+        }
+    }
+}
+
+.serve-detail{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    .serve-detail-content{
+        text-align: center;
+        img{
+            max-width: 100%;
+            min-height: 100%;
+        }
+        position: relative;
+        .serve-item{
+            width: 290px;
+            height: 150px;
+            position: absolute;
+            a{
+                display: inline-block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                &:hover{
+                    ~.icon{
+                        background: #008574;
+                    }
+                }
+            }
+            img{
+                height: auto;
+                min-height: auto;
+            }
+            .icon{
+                background: #38d6c2;
+                width: 150px;
+                height: 150px;
+                text-align: center;
+                line-height: 150px;
+                border-radius: 50%;
+                border: 8px solid#ffffff;
+                
+            }
+            .txt{
+                padding-left: 10px;
+            }
+            span{
+                display: inline-block;
+                color: #38d6c2;
+                font-size: 26px;
+            }
+        }
+        // 品牌服务
+        .serve-fw{
+            left: 50%;
+            top: -130px;
+            z-index: 1;
+            margin-left: -75px;
+        }
+        // 网站运营
+        .serve-wz{
+            left: 25%;
+            top: 25%;
+            z-index: 1;
+            margin-top:-105px;
+            margin-left: -215px;
+            .txt{
+                padding-right: 10px;
+            }
+        }
+        // 客服服务
+        .serve-kf{
+            right: 25%;
+            top: 25%;
+            z-index: 1;
+            margin-top:-105px;
+            margin-right: -215px;
+        }
+
+
+        // 渠道建设
+        .serve-qd{
+            left: 25%;
+            top: 75%;
+            z-index: 1;
+            margin-top:-165px;
+            margin-left: -255px;
+            .txt{
+                padding-right: 10px;
+            }
+        }
+        // 视觉外包服务
+        .serve-sj{
+            width: 325px;
+            right: 25%;
+            top: 75%;
+            z-index: 1;
+            margin-top:-165px;
+            margin-right: -258px;
+        }
+
+        // 仓储服务
+        .serve-cc{
+            left: 25%;
+            top: 100%;
+            z-index: 1;
+            margin-left: -105px;
+            margin-top:-85px;
+            .txt{
+                padding-right: 10px;
+            }
+        }
+        // 推广外包服务
+        .serve-tj{
+            width: 325px;
+            right: 25%;
+            top: 100%;
+            z-index: 1;
+            margin-right: -145px;
+            margin-top: -85px;
+        }
+    }
+}
+
+
+
+// 品牌服务start
+.serve-brand-container{
+    background: #eeeeee;
+}
+.serve-brand{
+    width: 1280px;
+    margin: 0 auto;
+    .serve-brand-lx{
+        padding: 65px 0;
+        height: 240px;
+        ul{
+            margin: 0;
+            li{
+                float: left;
+                height: 110px;
+                line-height: 110px;
+                text-align: center;
+                &.item-block{
+                   width: 205px; 
+                   background: #202121;
+                   color: #ffffff;
+                   font-size: 30px;
+                   border-radius: 15px;
+                }
+                &.item-folor{
+                    background: #66d4cb;
+                }
+                &.item-right{
+                    width: 62px;
+                }
+            }
+        }
+    }
+
+    .serve-line{
+        height: 1px;
+        clear: both;
+        border: 1px solid #202121;
+        margin: 30px 0 10px 0;
+    }
+
+    .serve-brand-lxdec{
+        ul{
+            li{
+                float: left;
+                &.lxdec-item{
+                    width: 205px; 
+                }
+                &.lxdec-block{
+                    width: 62px;
+                }
+                p{
+                    padding-left: 35px;
+                    position: relative;
+                    font-size: 16px;
+                    line-height: 35px;
+                    position: relative;
+                    margin: 0;
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 30px;
+                        width: 35px;
+                        background: url(../imgs/right-2.png) center no-repeat;
+                    }
+                }
+            }
+        }
+    }
+
+    .serve-tag{
+        padding: 0 0 0 50px;
+        position: relative;
+        height: 100px;
+        line-height: 100px;
+        color: #202121;
+        font-size: 30px;
+        &::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 30px;
+            height: 100px;
+            background: url(../imgs/right-3.png) center no-repeat;
+        }
+    }
+    .serve-tag-list{
+        ul{
+            margin-left: -27px;
+            li{
+                width: 298px;
+                height: 290px;
+                border: 1px solid #d3d3d3;
+                background: #ffffff;
+                float: left;
+                margin-left: 27px;
+                margin-bottom: 27px;
+                h2{
+                    height: 90px;
+                    line-height: 90px;
+                    font-size: 22px;
+                    margin: 0;
+                    text-align: center;
+                    color: #333333;
+                }
+                p{
+                    color: #666666;
+                    font-size: 16px;
+                    line-height: 30px;
+                    margin: 0;
+                    padding: 0 28px;
+                }
+            }
+        }
+    }
+}
