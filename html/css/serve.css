@@ -55,13 +55,13 @@
       top: -130px;
       z-index: 1;
       margin-left: -75px; }
-    .serve-detail .serve-detail-content .serve-wz {
+    .serve-detail .serve-detail-content .serve-dz {
       left: 25%;
       top: 25%;
       z-index: 1;
       margin-top: -105px;
       margin-left: -215px; }
-      .serve-detail .serve-detail-content .serve-wz .txt {
+      .serve-detail .serve-detail-content .serve-dz .txt {
         padding-right: 10px; }
     .serve-detail .serve-detail-content .serve-kf {
       right: 25%;
@@ -190,3 +190,419 @@
         line-height: 30px;
         margin: 0;
         padding: 0 28px; }
+
+.serve-oper-container {
+  width: 100%;
+  background: url(../imgs/serve-oper-bg.jpg) no-repeat;
+  background-size: 100% auto; }
+
+.serve-oper-main {
+  width: 1280px;
+  margin: 0 auto; }
+  .serve-oper-main .serve-tit {
+    padding-top: 30px; }
+    .serve-oper-main .serve-tit h2 {
+      font-size: 40px;
+      color: #333338;
+      text-align: center;
+      height: 100px;
+      line-height: 100px; }
+    .serve-oper-main .serve-tit p {
+      font-size: 20px;
+      line-height: 38px;
+      color: #666666; }
+  .serve-oper-main .serve-oper-list {
+    padding: 50px 0; }
+    .serve-oper-main .serve-oper-list ul li {
+      width: 590px;
+      height: 340px;
+      float: left;
+      background: #ffffff;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      -moz-box-shadow: 2px 2px 5px rgba(51, 51, 51, 0.4);
+      -webkit-box-shadow: 2px 2px 5px rgba(51, 51, 51, 0.4);
+      box-shadow: 2px 2px 5px rgba(51, 51, 51, 0.4);
+      padding: 50px 0; }
+      .serve-oper-main .serve-oper-list ul li .pl100 {
+        padding-left: 100px; }
+      .serve-oper-main .serve-oper-list ul li .seve-oper-left {
+        float: left;
+        width: 50%;
+        padding: 0 0 0 100px; }
+      .serve-oper-main .serve-oper-list ul li .seve-oper-right {
+        float: left;
+        width: 50%; }
+      .serve-oper-main .serve-oper-list ul li h2 {
+        height: 78px;
+        line-height: 78px;
+        margin: 0;
+        color: #001c3c;
+        font-size: 28px; }
+      .serve-oper-main .serve-oper-list ul li p {
+        font-size: 20px;
+        color: #666666;
+        padding: 0 0 0 30px;
+        position: relative;
+        height: 28px;
+        line-height: 28px; }
+        .serve-oper-main .serve-oper-list ul li p::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 10px;
+          width: 8px;
+          height: 8px;
+          background: #2ad7c2; }
+  .serve-oper-main .serve-anli {
+    text-align: center;
+    padding: 35px 0; }
+    .serve-oper-main .serve-anli h1 {
+      font-size: 40px;
+      color: #333333;
+      margin-bottom: 20px; }
+    .serve-oper-main .serve-anli p {
+      color: #666666;
+      font-size: 26px;
+      margin: 0; }
+
+.server-service-bg {
+  width: 100%;
+  background: #f6f6f6; }
+
+.server-service-container {
+  width: 1280px;
+  margin: 0 auto; }
+  .server-service-container .serve-service-tit {
+    height: 215px;
+    line-height: 215px;
+    text-align: center;
+    color: #202121;
+    font-size: 44px; }
+  .server-service-container .serve-service-item {
+    height: 615px; }
+    .server-service-container .serve-service-item .serve-service-itemL {
+      float: left;
+      width: 50%; }
+      .server-service-container .serve-service-item .serve-service-itemL img {
+        max-width: 100%; }
+    .server-service-container .serve-service-item .serve-service-itemR {
+      float: left;
+      width: 50%; }
+      .server-service-container .serve-service-item .serve-service-itemR h2 {
+        height: 120px;
+        color: #202121;
+        font-size: 34px;
+        line-height: 120px;
+        margin: 0; }
+      .server-service-container .serve-service-item .serve-service-itemR p {
+        color: #8c8c8c;
+        font-size: 22px;
+        line-height: 40px;
+        margin: 0; }
+      .server-service-container .serve-service-item .serve-service-itemR ul {
+        margin-top: 50px; }
+        .server-service-container .serve-service-item .serve-service-itemR ul li {
+          font-size: 20px;
+          color: #8c8c8c;
+          height: 36px;
+          line-height: 36px;
+          padding: 0 0 0 30px;
+          position: relative; }
+          .server-service-container .serve-service-item .serve-service-itemR ul li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 14px;
+            width: 8px;
+            height: 8px;
+            background: #ff0000;
+            border-radius: 50%; }
+  .server-service-container .serve-service-con {
+    padding: 80px 0  50px 0;
+    font-size: 26px;
+    line-height: 38px;
+    color: #666666; }
+  .server-service-container .serve-service-kf {
+    padding-bottom: 140px; }
+    .server-service-container .serve-service-kf ul {
+      margin-left: -22px; }
+      .server-service-container .serve-service-kf ul li {
+        float: left;
+        width: 405px;
+        height: 275px;
+        background: #ffffff;
+        border-left: 7px solid #ff0000;
+        padding-left: 30px;
+        margin-left: 22px; }
+        .server-service-container .serve-service-kf ul li p {
+          color: #666666;
+          font-size: 21px; }
+          .server-service-container .serve-service-kf ul li p.tit {
+            color: #202121;
+            font-size: 40px;
+            padding: 75px 0 30px 0; }
+
+.serve-visval-con1 {
+  background: #eeeeee;
+  width: 100%; }
+
+.serve-visval-con2 {
+  background: #ffffff;
+  width: 100%; }
+
+.serve-visval-container {
+  width: 1280px;
+  margin: 0 auto; }
+  .serve-visval-container .serve-visval-part1 {
+    padding-bottom: 100px; }
+    .serve-visval-container .serve-visval-part1 .tit {
+      text-align: center;
+      padding: 60px 0 50px 0; }
+      .serve-visval-container .serve-visval-part1 .tit h2 {
+        height: 44px;
+        color: #202121; }
+      .serve-visval-container .serve-visval-part1 .tit p {
+        font-size: 26px;
+        color: #666666; }
+    .serve-visval-container .serve-visval-part1 .con ul {
+      margin-left: -80px; }
+      .serve-visval-container .serve-visval-part1 .con ul li {
+        float: left;
+        width: 595px;
+        margin-left: 80px; }
+        .serve-visval-container .serve-visval-part1 .con ul li .con-img {
+          height: 394px;
+          overflow: hidden; }
+          .serve-visval-container .serve-visval-part1 .con ul li .con-img img {
+            max-width: 100%; }
+        .serve-visval-container .serve-visval-part1 .con ul li .con-tit {
+          width: 100%;
+          height: 82px;
+          line-height: 82px;
+          font-size: 32px;
+          color: #ffffff;
+          background: #75d8d0;
+          text-align: center; }
+        .serve-visval-container .serve-visval-part1 .con ul li .con-p {
+          padding: 40px 0 30px 0;
+          background: #f6f6f6; }
+          .serve-visval-container .serve-visval-part1 .con ul li .con-p p {
+            padding-left: 185px;
+            line-height: 30px;
+            color: #666666;
+            font-size: 26px; }
+          .serve-visval-container .serve-visval-part1 .con ul li .con-p span {
+            padding-left: 35px;
+            position: relative; }
+            .serve-visval-container .serve-visval-part1 .con ul li .con-p span::before {
+              content: '';
+              position: absolute;
+              left: 0;
+              top: 13px;
+              width: 11px;
+              height: 11px;
+              background: #2ad7c2; }
+  .serve-visval-container .serve-visval-part2 .tit {
+    text-align: center;
+    padding: 60px 0 50px 0; }
+    .serve-visval-container .serve-visval-part2 .tit h2 {
+      height: 44px;
+      color: #202121; }
+    .serve-visval-container .serve-visval-part2 .tit p {
+      font-size: 26px;
+      color: #666666; }
+  .serve-visval-container .serve-visval-part2 .con {
+    padding-bottom: 100px; }
+    .serve-visval-container .serve-visval-part2 .con ul {
+      padding: 0 5px;
+      margin-left: -55px; }
+      .serve-visval-container .serve-visval-part2 .con ul li {
+        float: left;
+        width: 200px;
+        margin-left: 55px; }
+        .serve-visval-container .serve-visval-part2 .con ul li .con-tit {
+          font-size: 24px;
+          color: #333333;
+          margin: 0;
+          height: 45px;
+          line-height: 45px;
+          padding-top: 5px; }
+        .serve-visval-container .serve-visval-part2 .con ul li .con-eng {
+          letter-spacing: 5px;
+          color: #666666;
+          font-size: 16px;
+          height: 25px;
+          line-height: 25px; }
+        .serve-visval-container .serve-visval-part2 .con ul li .con-desc {
+          color: #999999;
+          font-size: 16px;
+          line-height: 25px; }
+        .serve-visval-container .serve-visval-part2 .con ul li .img {
+          height: 40px;
+          text-align: center;
+          padding: 0; }
+          .serve-visval-container .serve-visval-part2 .con ul li .img img {
+            max-width: 100%; }
+        .serve-visval-container .serve-visval-part2 .con ul li p {
+          text-align: center;
+          margin: 0; }
+
+.serve-pro-bg1 {
+  background: #ffffff;
+  width: 100%; }
+
+.serve-pro-bg2 {
+  background: #f4f4f4;
+  width: 100%; }
+
+.serve-pro-container {
+  width: 1280px;
+  margin: 0 auto; }
+  .serve-pro-container .serve-con-01 {
+    padding: 100px 0; }
+    .serve-pro-container .serve-con-01 .tit {
+      text-align: center; }
+      .serve-pro-container .serve-con-01 .tit h1 {
+        font-size: 44px;
+        color: #202121;
+        margin-top: 10px;
+        margin-bottom: 25px; }
+      .serve-pro-container .serve-con-01 .tit p {
+        font-size: 26px;
+        color: #666666; }
+    .serve-pro-container .serve-con-01 ul {
+      margin-top: 70px;
+      margin-left: -74px; }
+      .serve-pro-container .serve-con-01 ul li {
+        margin-left: 74px;
+        float: left;
+        width: 377px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+        background: #66d4cb;
+        color: #ffffff;
+        text-align: center; }
+  .serve-pro-container .serve-pro-con-02 {
+    padding: 72px 0 37px 0; }
+    .serve-pro-container .serve-pro-con-02 .tit {
+      height: 154px;
+      text-align: center;
+      color: #202121;
+      font-size: 42px;
+      padding-top: 57px;
+      background: url(../imgs/serve-pro-01.png) center no-repeat; }
+    .serve-pro-container .serve-pro-con-02 ul {
+      margin-left: -31px; }
+      .serve-pro-container .serve-pro-con-02 ul li {
+        float: left;
+        width: 404px;
+        height: 110px;
+        background: #ffffff;
+        border: 1px solid #d3d3d3;
+        margin-left: 31px;
+        margin-bottom: 40px;
+        padding: 25px 17px 0 17px; }
+        .serve-pro-container .serve-pro-con-02 ul li .p-tit {
+          font-size: 24px;
+          color: #66d4cb;
+          margin-bottom: 10px; }
+        .serve-pro-container .serve-pro-con-02 ul li .p-con {
+          color: #333333;
+          font-size: 16px;
+          line-height: 20px; }
+
+.serve-sto-bg {
+  background: #f6f6f6;
+  width: 100%; }
+  .serve-sto-bg .serve-sto-container {
+    width: 1280px;
+    margin: 0 auto; }
+    .serve-sto-bg .serve-sto-container .tit h2 {
+      font-size: 44px;
+      color: #333333;
+      text-align: center;
+      line-height: 70px;
+      margin: 0;
+      padding: 50px 0 15px 0; }
+    .serve-sto-bg .serve-sto-container .tit p {
+      font-size: 26px;
+      color: #333333;
+      line-height: 35px; }
+    .serve-sto-bg .serve-sto-container .serve-sto-part-01 .con ul {
+      border-top: 6px solid #d7241d;
+      background: #ffffff; }
+      .serve-sto-bg .serve-sto-container .serve-sto-part-01 .con ul li {
+        float: left;
+        width: 33%;
+        padding: 50px 0; }
+      .serve-sto-bg .serve-sto-container .serve-sto-part-01 .con ul p {
+        margin: 0; }
+        .serve-sto-bg .serve-sto-container .serve-sto-part-01 .con ul p.cc-tit {
+          font-size: 22px;
+          color: #666666;
+          margin-bottom: 20px; }
+        .serve-sto-bg .serve-sto-container .serve-sto-part-01 .con ul p.cc-per {
+          color: #333333;
+          font-size: 60px; }
+    .serve-sto-bg .serve-sto-container .serve-sto-part-02 {
+      padding-bottom: 80px; }
+      .serve-sto-bg .serve-sto-container .serve-sto-part-02 ul li {
+        width: 33%;
+        float: left;
+        text-align: center;
+        background: #ffffff; }
+        .serve-sto-bg .serve-sto-container .serve-sto-part-02 ul li .d-img {
+          height: 200px;
+          line-height: 200px; }
+        .serve-sto-bg .serve-sto-container .serve-sto-part-02 ul li.box-s {
+          -moz-box-shadow: -5px 0px 5px rgba(51, 51, 51, 0.6);
+          -webkit-box-shadow: -5px 0px 5px rgba(51, 51, 51, 0.6);
+          box-shadow: -5px 0px 5px rgba(51, 51, 51, 0.4); }
+        .serve-sto-bg .serve-sto-container .serve-sto-part-02 ul li .d-tit {
+          height: 90px;
+          color: #333333;
+          font-size: 26px; }
+          .serve-sto-bg .serve-sto-container .serve-sto-part-02 ul li .d-tit .desc {
+            font-size: 20px; }
+        .serve-sto-bg .serve-sto-container .serve-sto-part-02 ul li .d-con {
+          height: 190px;
+          font-size: 18px;
+          color: #999999; }
+
+.serve-chan-bg {
+  background: #eeeeee;
+  width: 100%; }
+  .serve-chan-bg .serve-chan-container {
+    width: 1280px;
+    margin: 0 auto; }
+    .serve-chan-bg .serve-chan-container .serve-chan-tit {
+      padding: 50px 0; }
+      .serve-chan-bg .serve-chan-container .serve-chan-tit h2 {
+        text-align: center;
+        font-size: 44px;
+        color: #202121;
+        margin-bottom: 20px; }
+      .serve-chan-bg .serve-chan-container .serve-chan-tit p {
+        font-size: 20px;
+        color: #666666;
+        line-height: 32px; }
+    .serve-chan-bg .serve-chan-container .serve-chan-con ul {
+      margin-left: -22px;
+      padding-bottom: 50px; }
+      .serve-chan-bg .serve-chan-container .serve-chan-con ul li {
+        float: left;
+        margin-left: 22px;
+        width: 405px;
+        height: 273px;
+        border-left: 7px solid #ff0000;
+        font-size: 40px;
+        color: #202121;
+        padding: 70px 0 0 30px; }
+        .serve-chan-bg .serve-chan-container .serve-chan-con ul li.bg1 {
+          background: url(../imgs/serve-chan-1.jpg) no-repeat; }
+        .serve-chan-bg .serve-chan-container .serve-chan-con ul li.bg2 {
+          background: url(../imgs/serve-chan-2.jpg) no-repeat; }
+        .serve-chan-bg .serve-chan-container .serve-chan-con ul li.bg3 {
+          background: url(../imgs/serve-chan-3.jpg) no-repeat; }

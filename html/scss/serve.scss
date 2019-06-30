@@ -76,8 +76,8 @@
             z-index: 1;
             margin-left: -75px;
         }
-        // 网站运营
-        .serve-wz{
+        // 店站运营
+        .serve-dz{
             left: 25%;
             top: 25%;
             z-index: 1;
@@ -257,6 +257,550 @@
                     line-height: 30px;
                     margin: 0;
                     padding: 0 28px;
+                }
+            }
+        }
+    }
+}
+
+
+// 店站运营  start
+.serve-oper-container{
+    width: 100%;
+    background: url(../imgs/serve-oper-bg.jpg) no-repeat;
+    background-size: 100% auto;
+    
+}
+.serve-oper-main{
+    width: 1280px;
+    margin: 0 auto;
+    .serve-tit{
+        padding-top: 30px;
+        h2{
+            font-size: 40px;
+            color: #333338;
+            text-align: center;
+            height: 100px;
+            line-height: 100px;
+        }
+        p{
+            font-size: 20px;
+            line-height: 38px;
+            color: #666666;
+        }
+    }
+
+    .serve-oper-list{
+        padding: 50px 0;
+        ul{
+            li{
+                width: 590px;
+                height: 340px;
+                float: left;
+                background: #ffffff;
+                margin-left: 20px;
+                margin-bottom: 20px;
+                -moz-box-shadow:2px 2px 5px rgba(51, 51, 51, 0.4); 
+                -webkit-box-shadow:2px 2px 5px rgba(51, 51, 51, 0.4); 
+                box-shadow:2px 2px 5px rgba(51, 51, 51, 0.4);
+                padding: 50px 0;
+                .pl100{
+                    padding-left: 100px;
+                }
+                .seve-oper-left{
+                    float: left;
+                    width: 50%;
+                    padding: 0 0 0 100px;
+                }
+                .seve-oper-right{
+                    float: left;
+                    width: 50%;
+                }
+                h2{
+                    height: 78px;
+                    line-height: 78px;
+                    margin: 0;
+                    color: #001c3c;
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 20px;
+                    color: #666666;
+                    padding: 0 0 0 30px;
+                    position: relative;
+                    height: 28px;
+                    line-height: 28px;
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 10px;
+                        width: 8px;
+                        height: 8px;
+                        background: #2ad7c2;
+                    }
+                }
+            }
+        }
+    }
+
+    .serve-anli{
+        text-align: center;
+        padding: 35px 0;
+        h1{
+            font-size: 40px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #666666;
+            font-size: 26px;
+            margin: 0;
+        }
+    }
+}
+
+// 客服服务
+.server-service-bg{
+    width: 100%;
+    background: #f6f6f6;
+}
+.server-service-container{
+    width: 1280px;
+    margin: 0 auto;
+    .serve-service-tit{
+        height: 215px;
+        line-height: 215px;
+        text-align: center;
+        color: #202121;
+        font-size: 44px;
+    }
+    .serve-service-item{
+        height: 615px;
+        .serve-service-itemL{
+            float: left;
+            width: 50%;
+            img{
+                max-width: 100%;
+            }
+        }
+        .serve-service-itemR{
+            float: left;
+            width: 50%;
+            h2{
+                height: 120px;
+                color: #202121;
+                font-size: 34px;
+                line-height: 120px;
+                margin: 0;
+            }
+            p{
+                color: #8c8c8c;
+                font-size: 22px;
+                line-height: 40px;
+                margin: 0;
+            }
+            ul{
+                margin-top: 50px;
+                li{
+                    font-size: 20px;
+                    color: #8c8c8c;
+                    height: 36px;
+                    line-height: 36px;
+                    padding: 0 0 0 30px;
+                    position: relative;
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 14px;
+                        width: 8px;
+                        height: 8px;
+                        background: #ff0000;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+    .serve-service-con{
+        padding: 80px 0  50px 0;
+        font-size: 26px;
+        line-height: 38px;
+        color: #666666;
+    }
+    .serve-service-kf{
+        padding-bottom: 140px;
+        ul{
+            margin-left: -22px;
+            li{
+                float: left;
+                width: 405px;
+                height: 275px;
+                background: #ffffff;
+                border-left: 7px solid #ff0000;
+                padding-left: 30px;
+                margin-left: 22px;
+                p{
+                    color: #666666;
+                    font-size: 21px;
+                    &.tit{
+                        color: #202121;
+                        font-size: 40px;
+                        padding: 75px 0 30px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// 视觉外包服务
+.serve-visval-con1{
+    background: #eeeeee;
+    width: 100%;
+}
+.serve-visval-con2{
+    background: #ffffff;
+    width: 100%;
+}
+.serve-visval-container{
+    width: 1280px;
+    margin: 0 auto;
+    .serve-visval-part1{
+        padding-bottom: 100px;
+        .tit{
+            text-align: center;
+            padding: 60px 0 50px 0;
+            h2{
+                height: 44px;
+                color: #202121;
+            }
+            p{
+                font-size: 26px;
+                color: #666666;
+            }
+        }
+        .con{
+            ul{
+                margin-left: -80px;
+                li{
+                    float: left;
+                    width: 595px;
+                    margin-left: 80px;
+                    .con-img{
+                        height: 394px;
+                        overflow: hidden;
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+                    .con-tit{
+                        width: 100%;
+                        height: 82px;
+                        line-height: 82px;
+                        font-size: 32px;
+                        color: #ffffff;
+                        background: #75d8d0;
+                        text-align: center
+                    }
+                    .con-p{
+                        padding: 40px 0 30px 0;
+                        background: #f6f6f6;
+                        p{
+                            padding-left: 185px;
+                            line-height: 30px;
+                            color: #666666;
+                            font-size: 26px;
+                        }
+                        span{
+                            padding-left: 35px;
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                left: 0;
+                                top: 13px;
+                                width: 11px;
+                                height: 11px;
+                                background: #2ad7c2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .serve-visval-part2{
+        .tit{
+            text-align: center;
+            padding: 60px 0 50px 0;
+            h2{
+                height: 44px;
+                color: #202121;
+            }
+            p{
+                font-size: 26px;
+                color: #666666;
+            }
+        }
+        .con{
+            padding-bottom: 100px;
+            ul{
+                padding: 0 5px;
+                margin-left: -55px;
+                li{
+                    float: left;
+                    width: 200px;
+                    margin-left: 55px;
+                    .con-tit{
+                        font-size: 24px;
+                        color: #333333;
+                        margin: 0;
+                        height: 45px;
+                        line-height: 45px;
+                        padding-top: 5px;
+                    }
+                    .con-eng{
+                        letter-spacing: 5px;
+                        color: #666666;
+                        font-size: 16px;
+                        height: 25px;
+                        line-height: 25px
+                    }
+                    .con-desc{
+                        color: #999999;
+                        font-size: 16px;
+                        line-height: 25px;
+                    }
+                    .img{
+                        height: 40px;
+                        text-align: center;
+                        padding: 0;
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+                    p{
+                        text-align: center;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 推广外包服务
+.serve-pro-bg1{
+    background: #ffffff;
+    width: 100%;;
+}
+.serve-pro-bg2{
+    background: #f4f4f4;
+    width: 100%;;
+}
+.serve-pro-container{
+    width: 1280px;
+    margin: 0 auto;
+    .serve-con-01{
+        padding: 100px 0;
+        .tit{
+            text-align: center;
+            h1{
+                font-size: 44px;
+                color: #202121;
+                margin-top: 10px;
+                margin-bottom: 25px;
+            }
+            p{
+                font-size: 26px;
+                color: #666666;
+            }
+        }
+        ul{
+            margin-top: 70px;
+            margin-left: -74px;
+            li{
+                margin-left: 74px;
+                float: left;
+                width: 377px;
+                height: 60px;
+                line-height: 60px;
+                font-size: 30px;
+                background: #66d4cb;
+                color: #ffffff;
+                text-align: center;
+            }
+        }
+    }
+    .serve-pro-con-02{
+        padding: 72px 0 37px 0;
+        .tit{
+            height: 154px;
+            text-align: center;
+            color: #202121;
+            font-size: 42px;
+            padding-top: 57px;
+            background: url(../imgs/serve-pro-01.png) center no-repeat;
+        }
+        ul{
+            margin-left: -31px;
+            li{
+                float: left;
+                width: 404px;
+                height: 110px;
+                background: #ffffff;
+                border: 1px solid #d3d3d3;
+                margin-left: 31px;
+                margin-bottom: 40px;
+                padding:25px 17px 0 17px;
+                .p-tit{
+                    font-size: 24px;
+                    color: #66d4cb;
+                    margin-bottom: 10px;
+                }
+                .p-con{
+                    color: #333333;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+// 仓储服务
+.serve-sto-bg{
+    background: #f6f6f6;
+    width: 100%;
+    .serve-sto-container{
+        width: 1280px;
+        margin: 0 auto;
+        .tit{
+            h2{
+                font-size: 44px;
+                color: #333333;
+                text-align: center;
+                line-height: 70px;
+                margin: 0;
+                padding: 50px 0 15px 0;
+            }
+            p{
+                font-size: 26px;
+                color: #333333;
+                line-height: 35px;
+            }
+        }
+        .serve-sto-part-01{
+            .con{
+                ul{
+                    border-top: 6px solid #d7241d;
+                    background: #ffffff;
+                    li{
+                        float: left;
+                        width: 33%;
+                        padding: 50px 0;
+                    }
+                    p{
+                        margin: 0;
+                        &.cc-tit{
+                            font-size: 22px;
+                            color: #666666;
+                            margin-bottom: 20px;
+                        }
+                        &.cc-per{
+                            color: #333333;
+                            font-size: 60px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .serve-sto-part-02{
+            padding-bottom: 80px;
+            ul{
+                li{
+                    width: 33%;
+                    float: left;
+                    text-align: center;
+                    background: #ffffff;
+                    .d-img{
+                        height: 200px;
+                        line-height: 200px;
+                    }
+                    &.box-s{
+                        -moz-box-shadow:-5px 0px 5px rgba(51, 51, 51, 0.6); 
+                        -webkit-box-shadow:-5px 0px 5px rgba(51, 51, 51, 0.6); 
+                        box-shadow:-5px 0px 5px rgba(51, 51, 51, 0.4);
+                    }
+                    .d-tit{
+                        height: 90px;
+                        color: #333333;
+                        font-size: 26px;
+                        .desc{
+                            font-size: 20px;
+                        }
+                    }
+                    .d-con{
+                        height: 190px;
+                        font-size: 18px;
+                        color: #999999;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 渠道建设
+.serve-chan-bg{
+    background: #eeeeee;
+    width: 100%;
+    .serve-chan-container{
+        width: 1280px;
+        margin: 0 auto;
+        .serve-chan-tit{
+            padding: 50px 0;
+            h2{
+                text-align: center;
+                font-size: 44px;
+                color: #202121;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 20px;
+                color: #666666;
+                line-height: 32px;
+            }
+        }
+        .serve-chan-con{
+            ul{
+                margin-left: -22px;
+                padding-bottom: 50px;
+                li{
+                    float: left;
+                    margin-left: 22px;
+                    width: 405px;
+                    height: 273px;
+                    border-left: 7px solid #ff0000;
+                    font-size: 40px;
+                    color: #202121;
+                    padding: 70px 0 0 30px;
+                    &.bg1{
+                        background: url(../imgs/serve-chan-1.jpg) no-repeat;
+                    }
+                    &.bg2{
+                        background: url(../imgs/serve-chan-2.jpg) no-repeat;
+                    }
+                    &.bg3{
+                        background: url(../imgs/serve-chan-3.jpg) no-repeat;
+                    }
                 }
             }
         }
