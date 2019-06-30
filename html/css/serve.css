@@ -104,6 +104,16 @@
 .serve-brand-container {
   background: #eeeeee; }
 
+.serve-brand-banner .jumbotron {
+  width: 690px;
+  top: 50%;
+  margin-top: -170px; }
+  .serve-brand-banner .jumbotron .bgF {
+    padding: 50px 50px 120px 50px;
+    background: rgba(255, 255, 255, 0.6) !important; }
+  .serve-brand-banner .jumbotron h1, .serve-brand-banner .jumbotron p {
+    color: #333333; }
+
 .serve-brand {
   width: 1280px;
   margin: 0 auto; }
