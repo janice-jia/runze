@@ -7,10 +7,11 @@
     padding: 70px 0 0 0;
     color: #666666;
     h1{
-        font-size: 40px;
+        font-size: 36px;
     }
     p{
-        font-size: 20px;
+        font-size: 22px;
+        font-weight: 100;
     }
 }
 
@@ -19,6 +20,7 @@
     position: relative;
     margin-bottom: 30px;
     padding-top: 70px;
+    padding: 70px 30px 0 30px;
     &::before{
         content: "";
         width: 100%;
@@ -72,12 +74,13 @@
         margin-bottom: 40px;
         h1{
             color: #66d4cb;
-            font-size: 26px;
+            font-size: 32px;
             position: relative;
         }
         p{
             color: #666666;
-            font-size: 16px;
+            font-size: 20px;
+            font-weight: lighter;
         }
         &::before{
             content: "";

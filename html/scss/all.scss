@@ -1,6 +1,8 @@
 @charset "utf-8";
+
 .container-main{
     width: 100%;
+    min-height: 100%;
     overflow: hidden;
     background: #fff;
 }
@@ -25,6 +27,7 @@
 }
 .header-left{
     text-align: center;
+    padding-left: 20px;
 }
 .header-left img{
     width: 74px;
@@ -77,6 +80,11 @@
     background: none!important;
     background-color: none;
 }
+// 关于我们banner
+.about-footer-banner{
+    min-height: 247px;
+    background: url('../imgs/about-footer.jpg');
+}
 .index-banner{
     position: relative;
     text-align: center;
@@ -100,16 +108,16 @@
         color: #333333;
         text-align: left;
         h1{
-            font-size: 60px;
+            font-size: 50px;
             margin-bottom: 20px;
         }
         p{
-            font-size: 30px;
-            font-weight: normal;
+            font-size: 28px;
+            font-weight: 100;
         }
     }
 
-    // 关于我们banner
+    
     .about-banner,.about-footer{
         .jumbotron{
             color: #ffffff;
@@ -118,13 +126,14 @@
 
     .about-footer{
         .jumbotron{
-            top: 8%;
+            margin: 0;
             h1{
-                font-size: 40px;
+                font-size: 50px;
                 margin-bottom: 40px;
             }
             p{
-                font-size: 30px;
+                font-size: 28px;
+                font-weight: 100;
             }
         } 
     }
@@ -135,7 +144,7 @@
     width: 1100px;
     margin: 0 auto;
     color: #333333;
-    font-size: 18px;
+    font-size: 16px;
     p{
         font-weight: normal;
         line-height: 30px
@@ -158,6 +167,7 @@
     }
     .container{
         height: 94px!important;
+        min-width:750px;
     }
     
 }

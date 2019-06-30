@@ -15,7 +15,8 @@
 
 .serve-detail {
   margin-top: 150px;
-  margin-bottom: 150px; }
+  margin-bottom: 150px;
+  padding: 0 60px; }
   .serve-detail .serve-detail-content {
     text-align: center;
     position: relative; }
