@@ -373,6 +373,72 @@
             margin: 0;
         }
     }
+    
+}
+
+.serve-columns{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    img{
+        max-width: 100%;
+    }
+    .serve-columns-tit{
+        height: 212px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        margin-top: -106px;
+        text-align: center;
+        &:hover{
+            .tit1{
+                font-size: 52px;
+            }
+        }
+        .tit1{
+            font-size: 50px;
+            font-weight: bold;
+            color: #ffffff;
+            letter-spacing: 5px;
+            text-transform:capitalize;
+        }
+        .tit2{
+            font-size: 26px;
+            color: #ffffff;
+            margin-bottom: 30px;
+        }
+        .down{
+            display: inline-block;
+            background: #38d6c2;
+            width: 53px;
+            height: 53px;
+            border:6px solid #73757a;
+            border-radius: 50%;
+            margin-bottom: 5px;
+            cursor: pointer;
+            img{
+                padding: 12px 0 0 0;
+                width: 20px;
+            }
+            &:hover{
+                border:6px solid rgba(255, 255,255,0.9);
+            }
+        }
+        .more{
+            color: #38d6c2;
+            font-size: 20px;
+        }
+    }
+}
+.serve-oper-con{
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    padding:45px 0;
+    img{
+        max-width: 100%;
+    }
 }
 
 // 客服服务
