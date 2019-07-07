@@ -126,7 +126,8 @@
         float: left;
         height: 110px;
         line-height: 110px;
-        text-align: center; }
+        text-align: center;
+        cursor: pointer; }
         .serve-brand .serve-brand-lx ul li.item-block {
           width: 205px;
           background: #202121;
@@ -163,6 +164,10 @@
         height: 30px;
         width: 35px;
         background: url(../imgs/right-2.png) center no-repeat; }
+  .serve-brand .server-list {
+    display: none; }
+  .serve-brand .list-hover {
+    display: block; }
   .serve-brand .serve-tag {
     padding: 0 0 0 50px;
     position: relative;
@@ -325,7 +330,8 @@
   width: 100%;
   background: #ffffff;
   text-align: center;
-  padding: 45px 0; }
+  padding: 45px 0;
+  display: none; }
   .serve-oper-con img {
     max-width: 100%; }
 

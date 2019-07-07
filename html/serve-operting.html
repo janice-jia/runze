@@ -135,7 +135,7 @@
             <div class="serve-columns-tit">
                 <p class="tit1">3C DIGITAL</p>
                 <p class="tit2">3C数码</p>
-                <p class="down">
+                <p data-index="0" class="down">
                     <img src="./imgs/down.png" alt="">
                 </p>
                 <p class="more">MORE</p>
@@ -151,7 +151,7 @@
             <div class="serve-columns-tit">
                 <p class="tit1">LUGGAGE AND BAGS</p>
                 <p class="tit2">箱包</p>
-                <p class="down">
+                <p data-index="1" class="down">
                     <img src="./imgs/down.png" alt="">
                 </p>
                 <p class="more">MORE</p>
@@ -167,7 +167,7 @@
             <div class="serve-columns-tit">
                 <p class="tit1">TOYS</p>
                 <p class="tit2">玩具</p>
-                <p class="down">
+                <p data-index="2" class="down">
                     <img src="./imgs/down.png" alt="">
                 </p>
                 <p class="more">MORE</p>
@@ -183,7 +183,7 @@
             <div class="serve-columns-tit">
                 <p class="tit1">HOUSEHOLD CLEANING</p>
                 <p class="tit2">家居清理</p>
-                <p class="down">
+                <p data-index="3" class="down">
                     <img src="./imgs/down.png" alt="">
                 </p>
                 <p class="more">MORE</p>
@@ -209,7 +209,14 @@
             </div>
         </div>
     </div>
-
+<script src="./js/jquery-2.2.4.min.js"></script>
+<script>
+$('.serve-columns .down').click(function(){
+    var index = $(this).attr('data-index');
+    $('.serve-oper-con').css('display', 'none');
+    $('.serve-oper-con').eq(index).show('slow');
+})
+</script>
 </body>
 
 </html>

@@ -175,6 +175,7 @@
                 height: 110px;
                 line-height: 110px;
                 text-align: center;
+                cursor: pointer;
                 &.item-block{
                    width: 205px; 
                    background: #202121;
@@ -230,6 +231,12 @@
         }
     }
 
+    .server-list{
+        display: none;
+    }
+    .list-hover{
+        display: block;
+    }
     .serve-tag{
         padding: 0 0 0 50px;
         position: relative;
@@ -436,6 +443,7 @@
     background: #ffffff;
     text-align: center;
     padding:45px 0;
+    display: none;
     img{
         max-width: 100%;
     }
