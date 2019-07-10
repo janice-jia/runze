@@ -165,9 +165,25 @@
 .serve-brand{
     width: 1280px;
     margin: 0 auto;
+
+    .box {
+        position: -webkit-sticky;
+        position: sticky;
+        width: 100%;
+        height: 240px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+  
+    .box1 {
+        top: 0;
+        z-index: 1;
+    }
     .serve-brand-lx{
         padding: 65px 0;
         height: 240px;
+        background: #eeeeee;
         ul{
             margin: 0;
             li{
@@ -232,7 +248,7 @@
     }
 
     .server-list{
-        display: none;
+        // display: none;
     }
     .list-hover{
         display: block;

@@ -50,12 +50,11 @@
             </div>
             <img src="./imgs/serve-brand-banner.jpg" alt="一站式电站解决方案服务商专注、专业、高效">
         </div>
-
-        <div style="clear: both;"></div>
-
         <div class="serve-brand-container">
             <div class="serve-brand">
-                <div class="serve-brand-lx">
+                <!-- <div style="height:0px">滚动试试</div> -->
+                <!-- <div class="box box1">box1</div> -->
+                <div class="serve-brand-lx box box1">
                     <ul>
                         <li data-index="0" class="item-block item-folor">品牌定位</li>
                         <li class="item-right"><img src="./imgs/right-1.png" alt="" /></li>
@@ -113,7 +112,7 @@
                 <div style="clear: both;"></div>
                 <div class="serve-line"></div>
 
-                <div class="server-list list-hover">
+                <div class="server-list list-hover ppdw">
                     <div class="serve-tag">品牌定位</div>
                     <div class="serve-tag-list">
                         <ul>
@@ -137,7 +136,7 @@
                     </div>
                 </div>
 
-                <div class="server-list xs">
+                <div class="server-list ppxs">
                     <div style="clear: both;"></div>
                     <div class="serve-tag">品牌实现</div>
                     <div class="serve-tag-list">
@@ -164,7 +163,7 @@
                                 <p>空间作为与消费者接触的品牌终端形象之一，具有不可忽视的意义。
                                     将品牌文化融入立体空间，使消费者深度体验品牌的独特氛围和人文气息。</p>
                             </li>
-                            <li>
+                            <li class="dsyy">
                                 <h2>品牌形象优化升级</h2>
                                 <p>品牌的持久性，在于面对不断变化的市场是否仍能保持活力。
                                     我们帮助品牌进行自我检验，巩固优势，打破劣势，实现品牌的优化升级。</p>
@@ -173,7 +172,7 @@
                     </div>
                 </div>
 
-                <div class="server-list yy">
+                <div class="server-list">
                     <div style="clear: both;"></div>
                     <div class="serve-tag">电商运营</div>
                     <div class="serve-tag-list">
@@ -194,7 +193,7 @@
                     </div>
                 </div>
 
-                <div class="server-list yy">                
+                <div class="server-list ppcb">                
                     <div style="clear: both;"></div>
                     <div class="serve-tag">品牌传播</div>
                     <div class="serve-tag-list">
@@ -215,7 +214,7 @@
                                 <h2>企业/产品画册设计</h2>
                                 <p>以符合企业/产品特性的设计语言，灵活表达企业/产品诉求，带给受众耳目一新的视觉感受。</p>
                             </li>
-                            <li>
+                            <li class="ppgl">
                                 <h2>宣传物料设计</h2>
                                 <p>品牌的每一个细节都应臻于完美。宣传物料作为品牌形象的衍生品，在广泛的传播范围内塑造着品牌的形象。</p>
                             </li>
@@ -223,7 +222,7 @@
                     </div>
                 </div>
 
-                <div class="server-list yy">
+                <div class="server-list">
                     <div style="clear: both;"></div>
                     <div class="serve-tag">品牌管理</div>
                     <div class="serve-tag-list">
@@ -265,13 +264,25 @@
         </div>
     </div>
 <script src="./js/jquery-2.2.4.min.js"></script>
+<script src="./js/jquery.smooth-scroll.min.js"></script>
 <script>
     $('.item-block').click(function(){
         $('.serve-brand-lx li').removeClass('item-folor');
         $(this).addClass('item-folor');
         var index =  $(this).attr('data-index');
-        $('.server-list').css('display', 'none');
-        $('.server-list').eq(index).css('display','block')
+        var goDom = null;
+        if(index == 0){
+            goDom = '.serve-brand-lxdec'
+        }else if(index == 1){
+            goDom = '.ppxs'
+        }else if(index == 2){
+            goDom = '.dsyy'
+        }else if(index == 3){
+            goDom = '.ppcb'
+        }else if(index == 4){
+            goDom = '.ppgl'
+        }
+        document.querySelector(goDom).scrollIntoView({ behavior: 'smooth' });
     })
 </script>
 </body>
