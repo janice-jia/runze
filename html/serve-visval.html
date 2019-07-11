@@ -22,8 +22,19 @@
                     <li>
                         <a href="index.html">首页</a>
                     </li>
-                    <li class="li-active clearfix">
+                    <li class="li-active clearfix serve">
                         <a href="serve.html">核心服务</a>
+                        <div class="lever2">
+                            <ul>
+                                <li><a href="serve-brand.html" target="_blank">品牌服务</a></li>
+                                <li><a href="serve-operting.html" target="_blank">店站运营</a></li>
+                                <li><a href="serve-channel.html" target="_blank">渠道建设</a></li>
+                                <li><a href="serve-storage.html" target="_blank">仓储服务</a></li>
+                                <li><a href="serve-service.html" target="_blank">客服服务</a></li>
+                                <li><a href="serve-visval.html" target="_blank">视觉外包服务</a></li>
+                                <li><a href="serve-promote.html" target="_blank">推广外包服务</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li>
                         <a href="aboutus.html">关于我们</a>
@@ -187,13 +198,13 @@
                         <div class="con2">
                             <ul>
                                 <li>
-                                    <img src="./imgs/serve-visval-6.png" alt="">
+                                    <img src="./imgs/serve-visval-9.png" alt="">
                                     <h1>性价比高</h1>
                                     <p>灵活应对设计需求为店主</p>
                                     <p>省时、省力、省钱</p>
                                 </li>
                                 <li>
-                                    <img src="./imgs/serve-visval-8.png" alt="">
+                                    <img src="./imgs/serve-visval-10.png" alt="">
                                     <h1>更懂电商</h1>
                                     <p>13年服务历程，</p>
                                     <p>润泽更懂电商</p>
@@ -222,5 +233,13 @@
     </div>
 
 </body>
-
+<script src="./js/jquery-2.2.4.min.js"></script>
+<script>
+$('.serve').mouseover(function(){
+    $(this).find('.lever2').toggle();
+})
+$('.serve').mouseout(function(e){
+    $(this).find('.lever2').toggle();
+});
+</script>
 </html>
