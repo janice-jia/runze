@@ -290,7 +290,9 @@
     .serve-oper-main .serve-anli p {
       color: #666666;
       font-size: 22px;
-      margin: 0; }
+      margin: 0;
+      font-family: arial;
+      font-weight: lighter; }
 
 .serve-columns {
   width: 100%;
@@ -443,7 +445,9 @@
         color: #202121; }
       .serve-visval-container .serve-visval-part1 .tit p {
         font-size: 22px;
-        color: #666666; }
+        color: #666666;
+        font-family: arial;
+        font-weight: lighter; }
     .serve-visval-container .serve-visval-part1 .con ul {
       margin-left: -80px; }
       .serve-visval-container .serve-visval-part1 .con ul li {
@@ -549,7 +553,9 @@
         margin-bottom: 25px; }
       .serve-pro-container .serve-con-01 .tit p {
         font-size: 22px;
-        color: #666666; }
+        color: #666666;
+        font-family: arial;
+        font-weight: lighter; }
     .serve-pro-container .serve-con-01 ul {
       margin-top: 70px;
       margin-left: -74px; }
@@ -621,7 +627,9 @@
         .serve-sto-bg .serve-sto-container .serve-sto-part-01 .con ul p.cc-tit {
           font-size: 22px;
           color: #666666;
-          margin-bottom: 20px; }
+          margin-bottom: 20px;
+          font-family: arial;
+          font-weight: lighter; }
         .serve-sto-bg .serve-sto-container .serve-sto-part-01 .con ul p.cc-per {
           color: #333333;
           font-size: 36px; }

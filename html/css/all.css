@@ -156,7 +156,8 @@
     .index-banner .jumbotron p {
       font-size: 28px;
       font-weight: 100;
-      font-weight: lighter; }
+      font-weight: lighter;
+      font-family: arial; }
   .index-banner .about-banner .jumbotron, .index-banner .about-footer .jumbotron {
     color: #ffffff; }
   .index-banner .about-footer .jumbotron {

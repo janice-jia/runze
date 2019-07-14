@@ -279,6 +279,7 @@
 <script>
     $('.item-block').click(function(){
         $('.serve-brand-lx li').removeClass('item-folor');
+        $('.serve-tag-list').css('display', 'block')
         $(this).addClass('item-folor');
         var index =  $(this).attr('data-index');
         var goDom = null;
@@ -302,6 +303,10 @@
     $('.serve').mouseout(function(e){
         $(this).find('.lever2').toggle();
     });
+
+    $('.serve-tag').click(function(){
+        $(this).parent().find('.serve-tag-list').toggle();
+    })
 </script>
 </body>
 
